@@ -1,0 +1,35 @@
+{
+  "name": "cetaceansapi",
+  "version": "1.0.0",
+  "description": "Cetaceans API",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --ext js,jsx --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sofiamishel2003/CetaceansAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sofiamishel2003/CetaceansAPI/issues"
+  },
+  "homepage": "https://github.com/Sofiamishel2003/CetaceansAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "globals": "^15.2.0"
+  }
+}
